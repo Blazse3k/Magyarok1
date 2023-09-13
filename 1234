@@ -1,1 +1,7 @@
-
+git commit --help -- Bármely git parancsról kaphatunk segítséget
+git init   --     Git repository létrehozása az aktuális könyvtárban
+git clone https://github.com/bmeaut/snippets.git -- egy már létező repositoryt klónozunk
+git status -- Ha már létrejött a repository, annak állapotát (változott-e valami, stagelve van-e valami) a státusz lekérdezésével tehetjük meg
+git add egyfajl.txt
+git add . -- Stagelni fájlokat az add paranccsal lehet
+git commit -m "Üzenet" --  A stagelt fájlokat commitolni pedig az alábbi módon lehet
